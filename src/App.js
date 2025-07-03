@@ -34,7 +34,7 @@ let name = "arpit"
 
 console.log("Hello, how are you?")
 console.log("")
-
+var newvar = "test"
 
   return (
     <ThemeConsumer>
