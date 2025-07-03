@@ -16,6 +16,8 @@ jobs:
   sonarcloud:
     name: SonarCloud
     runs-on: ubuntu-latest
+    environment: development  # 👈 Add this line
+
 
     steps:
       - name: Checkout code
